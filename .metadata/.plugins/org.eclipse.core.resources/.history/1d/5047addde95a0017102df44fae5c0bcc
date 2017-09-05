@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title></title>
+		<meta name="description" content="" />
+		<meta name="author" content="Candy Ho" />
+		<meta name="last_edit_date" content="26 June 2017" />
+		
+		<!-- styles -->
+		<link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<header class="header">
+				</header>
+				<article class="content">
+					<div class="logo">
+						<p>logo</p>
+					</div>
+					<div class="main">
+						<div class="title">
+							<h1>Your mood in 40 seconds</h1>
+						</div>
+						<div class="text">
+							<p>Play the cognitive game "Frog Master" created by A Mind and we understand your mood instantly.</p>
+							<p>And be rewarded for being HAPPY!</p>
+						</div>
+					</div>
+					<div class="master-buttons">
+						<button id="fb_login" type="button" class="btn btn-primary">Sign in with Fb</button>
+					</div>
+				</article>
+				<footer class="footer">
+				</footer>
+				
+			</div>
+		</div>
+		
+		<!-- Script -->
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+		<script src="assets/js/jquery-ui.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,7 @@
+$("#fb_login").click(function(){
+	alert('logging in');
+});
+
+$("#fb_register").click(function(){
+	
+});

@@ -1,0 +1,15 @@
+$("#fb_login").click(function(){
+	alert("logging in");
+});
+
+$("#btn-logout").click(function(){
+	alert("going to game");
+});
+
+$("#fb_register").click(function(){
+	alert("getting registered");
+});
+
+$("#goToGame").click(function(){
+	alert("going to game");
+});

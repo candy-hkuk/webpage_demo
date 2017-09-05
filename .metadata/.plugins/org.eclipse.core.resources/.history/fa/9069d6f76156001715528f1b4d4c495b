@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title></title>
+		<meta name="description" content="The HTML5 Herald">
+		<meta name="author" content="Candy Ho">
+		
+		<!-- styles -->
+		<link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<header>
+				</header>
+				<div class="content">
+					<div class="top_panel">
+						<div class="title">
+							First 40 Seconds
+						</div>
+						<div>
+							<div class="image">
+								<img src="" />
+								Click
+							</div>
+							<div class="image">
+								<img src="" />
+								Do Not Click
+							</div>
+						</div>
+					</div>
+					<div class="bottom_panel">
+						<div></div>
+					</div>
+				</div>
+				
+				<button id="goToGame" type="button" class="btn btn-primary">
+				  Ready!
+				</button>
+			</div>
+		</div>
+		
+		<!-- Script -->
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+		<script src="assets/js/jquery-ui.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

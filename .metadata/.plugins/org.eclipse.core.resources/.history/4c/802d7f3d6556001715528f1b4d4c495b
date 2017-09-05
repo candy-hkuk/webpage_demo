@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title></title>
+		<meta name="description" content="The HTML5 Herald">
+		<meta name="author" content="Candy Ho">
+		
+		<!-- styles -->
+		<link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<header>
+				</header>
+				<div class="content">
+					<div class="top_panel">
+						<div class="title">
+							First 40 Seconds
+						</div>
+						<div>
+							<div class="icon">
+								<img src="" />
+							</div>
+							<div class="text">
+								<div>Share on Facebook and/or fb messenger to your friends who will receive 20 initial points</div>
+								<button type="button" class="btn btn-primary">Share</button>
+							</div>
+						</div>
+					</div>
+					<div class="bottom_panel">
+						<div class="title">
+							Your cognitive game results
+						</div>
+						<div class="score_panel">
+							<div class="label">
+								Satisfaction
+							</div>
+							<div class="score">
+								49
+							</div>
+						</div>
+						<div class="score_panel">
+							<div class="label">
+								Accumulated/Minimum for edemption
+							</div>
+							<div class="score">
+								49/200
+							</div>
+						</div>
+						<div class="score_panel">
+							<div class="label">
+								Suggested coffee
+							</div>
+							<div class="score">
+								Caffe Latte
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<button id="goToGame" type="button" class="btn btn-primary">
+					See your Brain passport
+				</button>
+				<button id="goToGame" type="button" class="btn btn-primary">
+					Chat and learn more
+				</button>
+			</div>
+		</div>
+		
+		<!-- Modal - Redemption points --->
+		<div class="modal fade" id="redeemPoint" tabindex="-1" role="dialog" aria-labelledby="redeemPointTitle" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="redeemPointTitle">Try for Fun</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <div class="title">
+		        	<h1></h1>
+		        </div>
+		        <div class="content">
+		        	<p>You are about to play and experience our our cognitive game WITHOUT accumulating points</p>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+		        <button type="button" class="btn btn-primary">PLAY</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-- Modal - Play for Reward --->
+		<div class="modal fade" id="playForReward" tabindex="-1" role="dialog" aria-labelledby="playForRewardTitle" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="playForRewardTitle">Play for Reward</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <div class="content">
+		        	<p>Enter the game code on the receipt to play, and you will be able to accumulate the points for prize redemption.</p>
+		        	<input type="text" id="redeem_code" placeholder="Enter one-time game code" />
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+		        <button type="button" class="btn btn-primary">PLAY</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-- Script -->
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+		<script src="assets/js/jquery-ui.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

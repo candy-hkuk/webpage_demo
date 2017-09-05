@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+D:\aMind\UI\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+843289136.index
+2754099109.index
+418722931.index
+1143601618.index
+161818366.index
+3516930270.index

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title></title>
+		<meta name="description" content="The HTML5 Herald">
+		<meta name="author" content="Candy Ho">
+		
+		<!-- styles -->
+		<link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<header class="header">
+					<div class="company_name">
+						A.Mind
+					</div>
+					<div class="user_action">
+						<button id="btn-logout" type="button" class="btn">Log out</button>
+					</div>
+				</header>
+				<article class="content">
+					<div class="top_panel">
+						<div class="title">
+							First 40 Seconds
+						</div>
+						<div>
+							<div class="icon">
+								<img src="" />
+							</div>
+							<div class="text">
+								<div>Share on Facebook and/or fb messenger to your friends who will receive 20 initial points</div>
+								<button type="button" class="btn btn-primary">Share</button>
+							</div>
+						</div>
+					</div>
+					<div class="bottom_panel">
+						<div class="title">
+							Your cognitive game results
+						</div>
+						<div class="score_panel">
+							<div class="label">
+								Satisfaction
+							</div>
+							<div class="score">
+								49
+							</div>
+						</div>
+						<div class="score_panel">
+							<div class="label">
+								Accumulated/Minimum for redemption <button type="button" class="xt-info" data-toggle="modal" data-target="#redeemPointInfo">?</button>
+							</div>
+							<div class="score">
+								49/200
+							</div>
+						</div>
+						<div class="score_panel">
+							<div class="label">
+								Suggested coffee
+							</div>
+							<div class="score">
+								Caffe Latte
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#redeemPoint">
+					Redeem Points
+				</button>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#brainPassport">
+					See your Brain passport
+				</button>
+				<button id="chat" type="button" class="btn btn-primary">
+					Chat and learn more
+				</button>
+			</div>
+		</div>
+		
+		<!-- Modal - Redemption points --->
+		<div class="modal fade" id="redeemPointInfo" tabindex="-1" role="dialog" aria-labelledby="redeemPointInfoTitle" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="redeemPointInfoTitle">Redemption points</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <div class="title">
+		        	<h1></h1>
+		        </div>
+		        <div class="content">
+		        	<p>This is the minimum points you need to redeem the coffee. A game code can be obtained by a purchase of $30 or more</p>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-- Modal - Redemption points --->
+		<div class="modal fade" id="redeemPoint" tabindex="-1" role="dialog" aria-labelledby="redeemPointTitle" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="redeemPointTitle">Redemption points</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <div class="title">
+		        	<h1></h1>
+		        </div>
+		        <div class="content">
+		        	<p>You have reached the minimum points you need to redeem the coffee. Simply Facebook message us for redemption details.</p>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Redeem Now</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-- Modal - Play for Reward --->
+		<div class="modal fade" id="brainPassport" tabindex="-1" role="dialog" aria-labelledby="brainPassportTitle" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="brainPassportTitle">Brain Passport</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <div class="content">
+		        	<div class="image">
+		        		<img src="" />
+		        	</div>
+		        	<div class="image">
+		        		<img src="" />
+		        	</div>
+		        	<div class="image">
+		        		<img src="" />
+		        	</div>
+		        	<div class="image">
+		        		<img src="" />
+		        	</div>
+		        	<div class="image">
+		        		<img src="" />
+		        	</div>
+		        	<div class="image">
+		        		<img src="" />
+		        	</div>
+		        	<div class="image">
+		        		<img src="" />
+		        	</div>
+		        	<div class="image">
+		        		<img src="" />
+		        	</div>
+		        	<div class="image">
+		        		<img src="" />
+		        	</div>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-- Script -->
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+		<script src="assets/js/jquery-ui.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

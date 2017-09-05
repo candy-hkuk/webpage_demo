@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title></title>
+		<meta name="description" content="The HTML5 Herald">
+		<meta name="author" content="Candy Ho">
+		
+		<!-- styles -->
+		<link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<header class="header">
+				</header>
+				<article class="content">
+					<div id="carouselHome" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselHomeIndicators" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselHomeIndicators" data-slide-to="1"></li>
+							<li data-target="#carouselHomeIndicators" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner" role="listbox">
+							 <div class="carousel-item item active">
+							   	<img class="d-block img-fluid" src="assets/images/grey.png" alt="First slide">
+							 	<div class="carousel-caption d-none d-md-block">
+									<div class="title">
+										<h1>Bring You a Journey of Instant Rewards</h1>
+									</div>
+									<div class="text">
+										<p>You will be rewarded based on your current mood - reflected by the game points that can be accumulated for redeeming a coffee!</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item item">
+								<img class="d-block img-fluid" src="assets/images/red.png" alt="Second slide">
+								<div class="carousel-caption d-none d-md-block">
+									<div class="title">
+										<h1>The Science</h1>
+									</div>
+									<div class="text">
+										<p>We understand the emotion through the game by how you react to the cognitive stimuli.</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item item">
+								<img class="d-block img-fluid" src="assets/images/yellow.png" alt="Third slide">
+								<div class="carousel-caption d-none d-md-block">
+									<div class="title">
+										<h1>Your Brain Passport</h1>
+									</div>
+									<div class="text">
+										<p>Take the journey with us to understand your own emotions, and capture the journey with your Brain Passport</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselHomeIndicators" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselHomeIndicators" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+					
+					<div class="master-buttons">
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tryForFun">Try for Fun</button>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#playForReward">Play for Reward</button>
+					</div>	
+				</article>
+				<footer class=".footer">
+				</footer>
+			</div>
+		</div>
+		
+		
+		
+		<!-- Modal - Try for Fun --->
+		<div class="modal fade" id="tryForFun" tabindex="-1" role="dialog" aria-labelledby="tryForFunTitle" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="tryForFunTitle">Try for Fun</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <div class="title">
+		        	<h1></h1>
+		        </div>
+		        <div class="content">
+		        	<p>You are about to play and experience our our cognitive game WITHOUT accumulating points</p>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+		        <button type="button" class="btn btn-primary">PLAY</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-- Modal - Play for Reward --->
+		<div class="modal fade" id="playForReward" tabindex="-1" role="dialog" aria-labelledby="playForRewardTitle" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="playForRewardTitle">Play for Reward</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <div class="content">
+		        	<p>Enter the game code on the receipt to play, and you will be able to accumulate the points for prize redemption.</p>
+		        	<input type="text" id="redeem_code" placeholder="Enter one-time game code" />
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+		        <button type="button" class="btn btn-primary">PLAY</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-- Script -->
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+		<script src="assets/js/jquery-ui.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
